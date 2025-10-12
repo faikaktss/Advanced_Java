@@ -15,7 +15,6 @@ public class ItemThreeTest {
 					// TODO: handle exception
 				}
 				System.out.println("Hashcode of Lazy: "+ LazyCache.getIstance().hashCode());
-				System.out.println("Hashcode of Eager: "+ EagerCache.getInstance().hashCode();
 				System.out.println("Hashcode of Enum: "+ CacheSinglation.INSTANCE.hashCode());
 			}
 		}).start();
@@ -25,7 +24,6 @@ public class ItemThreeTest {
 			@Override
 			public void run() {
 				System.out.println("Hashcode of Lazy: "+ LazyCache.getIstance().hashCode());
-				System.out.println("Hashcode of Eager: "+ EagerCache.getInstance().hashCode();
 				System.out.println("Hashcode of Enum: "+ CacheSinglation.INSTANCE.hashCode());				
 			}
 		}).start();
