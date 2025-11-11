@@ -3,7 +3,6 @@ package com.faik.IleriSeviyeJava.Item12;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class ItemTenTest {
 	public static void main(String[] args) {
