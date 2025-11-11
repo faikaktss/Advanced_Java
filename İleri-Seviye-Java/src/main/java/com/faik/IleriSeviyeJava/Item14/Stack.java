@@ -45,6 +45,8 @@ public class Stack {
 				elements = Arrays.copyOf(elements, 2 * size + 1);
 	}
 	
+	
+	//Deep Copy'e kayıyor biraz
 	@Override
 	public Stack clone() {
 		try {
