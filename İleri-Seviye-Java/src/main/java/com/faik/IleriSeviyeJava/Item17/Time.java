@@ -2,6 +2,8 @@ package com.faik.IleriSeviyeJava.Item17;
 
 public class Time {
 	
+	//Encapsulation Kullanımı
+	
 	private static final int HOURS_PER_DAY = 24;
 	private static final int MINUTES_PER_HOUR = 60;
 	
