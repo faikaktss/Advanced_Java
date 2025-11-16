@@ -1,16 +1,17 @@
 package com.faik.IleriSeviyeJava.Item19;
 
 import java.awt.List;
+import java.util.ArrayList;
 
 public class Kütüphane {
 
-	private final List kitaplar;
+	private final ArrayList<Kitap> kitaplar;
 	
-	public Kütüphane(List kitaplar) {
-		this.kitaplar = kitaplar;
+	public Kütüphane(ArrayList<Kitap> kitapListesi) {
+		this.kitaplar = kitapListesi;
 	}
 	
-	public List KütüphanedekiTümKitaplar(){
+	public ArrayList<Kitap> KütüphanedekiTümKitaplar(){
 		return kitaplar;
 	}
 	
